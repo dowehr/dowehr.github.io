@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dominik Wehr</title>
+    <link>https://dowehr.github.io/</link>
+    <description>Recent content on Dominik Wehr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://dowehr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dominik Wehr</title>
+      <link>https://dowehr.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.github.io/about/</guid>
+      <description>About Me  I am currently pursuing a Master&amp;rsquo;s degree in Logic at the Institute for Logic, Language and Computation of the University of Amsterdam with a focus on mathematics. Before this, I obtained a Bachelor&amp;rsquo;s degree in Computer Science from Saarland University in Germany. My interests lie in foundations of constructive mathematics, especially those obtained from dependent type theories, proof theory and non-economic game theory.
+At the moment, I am researching for my Master&amp;rsquo;s thesis on the proof theory of the cyclic proof system of HFLN together with Bahareh Afshari.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://dowehr.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.github.io/projects/</guid>
+      <description>Research Projects The Master of Logic allows students to earn up to 24 EC via research projects. These are the research projects I have worked on so far.
+ Formal Analysis of Material Dialogues for FOL This project was supervised by Dominik Kirst from Saarland University. It can be viewed as me carrying out one of the ideas mentioned in the &amp;ldquo;future work&amp;rdquo; section of my Bachelor&amp;rsquo;s thesis. Dialogical logic, originally put forward by Paul Lorenzen, captures the notion of first-order validity in terms of games modeled after a debate.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://dowehr.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.github.io/teaching/</guid>
+      <description>Teaching At Saarland university, I was a student TA for the following courses:
+   Year Course     Summer 2019 Introduction to Computational Logic   Summer 2018 Introduction to Computational Logic   Winter 2017/2018 Programming 1    Unfortunately, I was not able to teach at the University of Amsterdam as all courses I was eligible to teach as a Master&amp;rsquo;s student were taught in Dutch, which I do not speak.</description>
+    </item>
+    
+    <item>
+      <title>Thesis</title>
+      <link>https://dowehr.github.io/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.github.io/thesis/</guid>
+      <description>Bachelor&amp;rsquo;s Thesis I wrote my Bachelor&amp;rsquo;s thesis at the Programming Systems Lab at Saarland university, advised by Dominik Kirst, and Yannick Forster and supervised by Gert Smolka. Broadly, the thesis dealt with completeness proofs of first-order logic in a constructive setting, more specifically the type theory of Coq which was used to mechanize all of thesis&#39; results.
+The thesis can be roughly split into two halves. The first half is concerned with the ∀,→,⊥-fragment of first-order logic, both over Tarski and Kripke models.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Projects</title>
+    <meta name="description" content="">
+    <meta name="author" content='Dominik Wehr'>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://dowehr.github.io">Dominik Wehr</a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/">
+                        About
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/thesis">
+                        Thesis
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/projects">
+                        Projects
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/teaching">
+                        Teaching
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="research-projects">Research Projects</h1>
+<p>The Master of Logic allows students to earn up to 24 EC via research
+projects. These are the research projects I have worked on so far.</p>
+<hr>
+<h2 id="formal-analysis-of-material-dialogues-for-fol">Formal Analysis of Material Dialogues for FOL</h2>
+<p>This project was supervised by <a href="https://www.ps.uni-saarland.de/~kirst/">Dominik
+Kirst</a> from Saarland University. It can be
+viewed as me carrying out one of the ideas mentioned in the &ldquo;future work&rdquo;
+section of my <a href="/thesis">Bachelor&rsquo;s thesis</a>. Dialogical logic, originally put forward by
+Paul Lorenzen, captures the notion of first-order validity in terms of games
+modeled after a debate. Material dialogues, the variant we examine in this
+project, has a distinctly model-theoretic flavor compared to the formal
+dialogues usually considered in the literature. Arguably, it also is closer to
+Lorenzen&rsquo;s original formulation of dialogical logic.</p>
+<p>In the course of the project, I gave a novel formalization of material dialogues, using
+insights from my Bachelor&rsquo;s thesis. I examined the thereby arising semantics for
+first-order logic in the calculus of inductive constructions, with special
+attention paid to the constructivity of completeness proofs with regards to
+them. I obtained the following results:</p>
+<ul>
+<li>Classical material dialogues admit a soundness proof with regards to a
+cut-free sequent calculus. Their induced notion of validity entails exploding
+classical Tarski validity, a constructively stricter notion than the usual
+Tarski validity. This yields a constructive completeness proof with regards to
+a natural deduction system.</li>
+<li>Intuitionistic material dialogues admit no completeness proof without
+additional assumptions, as their induced notion of validity is entailed by the
+standard Tarski validity over a non-trivial fragment of first-order logic.
+This means intuitionistic material dialogues &ldquo;inherit&rdquo; parts of the
+meta-logic, thus requiring axioms fixing the strength of the meta-logic to
+prove completeness.</li>
+<li>I give a novel variant of material dialogues for intuitionistic logic, called
+Kripke material dialogues, arising from the idea of &ldquo;dialogues played over the
+canonical notion of model&rdquo;. Similarly to classical material dialogues for
+classical first-order logic, these admit a soundness proof with regards to a cut-free
+sequent calculus and a constructive completeness proof with regards to a
+natural deduction system, both for intuitionistic first-order logic. However,
+the completeness proof is restricted to the ∀,→,⊥-fragment.</li>
+</ul>
+<p>We are currently in the process of turning the project&rsquo;s results into a paper
+which we hope to present at a conference.</p>
+<h4 id="links">Links</h4>
+<ul>
+<li>The project report: <a href="/material.pdf">pdf</a></li>
+</ul>
+<h4 id="references">References</h4>
+<ul>
+<li>Lorenzen. Logik und Agon</li>
+<li>Lorenzen. Ein dialogisches Konstruktivitätskriterium</li>
+<li>Lorenz. Arithmetik und Logik als Spiele</li>
+<li>Forster, Kirst, Wehr. <a href="https://www.ps.uni-saarland.de/Publications/documents/ForsterEtAl_2019_Completeness.pdf">Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory</a></li>
+</ul>
+<hr>
+<h2 id="aczels-type-theoretic-interpretation-of-czf">Aczel&rsquo;s Type-Theoretic Interpretation of CZF</h2>
+<p>This project was supervised by <a href="https://www.robertpassmann.eu/">Robert
+Passmann</a>. It can be viewed as a culmination of
+the set theory lectures which I took during the Master of Logic and my
+background in type theory. I read Peter Aczel&rsquo;s three seminal papers on his
+interpretation of constructive Zeremelo-Fraenkel set theory into Martin Löf&rsquo;s
+dependent type theory and summarized them in a manner accessible to anyone with
+a little knowledge about axiomatic set theory and no background in type theory.</p>
+<p>We hope to publish the summary as part of the ILLC technical report series. I am
+also going to give a talk on the subject at the Mathematische Logik research seminar at
+Hamburg university on the 21. January 2021.</p>
+<h4 id="links-1">Links</h4>
+<ul>
+<li>The summary: <a href="/aczel.pdf">pdf</a></li>
+</ul>
+<h4 id="references-1">References</h4>
+<ul>
+<li>Aczel. The Type Theoretic Interpretation of Constructive Set Theory</li>
+<li>Aczel. The Type Theoretic Interpretation of Constructive Set Theory: Choice Principles</li>
+<li>Aczel. The Type Theoretic Interpretation of Constructive Set Theory: Inductive Definitions</li>
+</ul>
+<hr>
+<h2 id="categorical-normalization-by-evaluation">Categorical Normalization by Evaluation</h2>
+<p>This project was supervised by <a href="https://staff.fnwi.uva.nl/b.vandenberg3/">Benno van den
+Berg</a>. We read papers on
+normalization by evaluation, a semantic technique for normalizing the terms of a
+type theory. The focus was on papers which made use of categorical semantics (see
+the references below). To close the project, I combined the insights gleamed
+from the reading to try to transfer a technique for handling certain additional
+constants, introduced in the seminal paper on NBE by Berger and Schwichtenberg,
+to the categorical setting of the reduction free normalization proof of
+Altenkirch et. al. I succeeded in adapting the categorical normalization
+interpretation from Altenkirch et. al. to admit Schwichtenberg&rsquo;s and Berger&rsquo;s
+inductive correctness proof of the normalization theorem with the added
+constants. However, I did not manage to extend the categorical proof of the
+normalization theorem, given by Altenkirch et. al., to cover generic constants
+with similar conditions.</p>
+<h4 id="links-2">Links</h4>
+<ul>
+<li>The project report: <a href="/constants.pdf">pdf</a></li>
+</ul>
+<h4 id="references-2">References</h4>
+<ul>
+<li>Berger, Schwichtenberg. <a href="https://epub.ub.uni-muenchen.de/4261/1/4261.pdf">An inverse of the evaluation functional for typed λ-calculus</a></li>
+<li>Altenkirch, Hofmann, Streicher. <a href="https://www.cs.nott.ac.uk/~psztxa/publ/ctcs95.pdf">Categorical reconstruction of a reduction free normalization proof</a></li>
+<li>Altenkirch, Dybjer, Hofmann, Scott. <a href="http://www.cs.nott.ac.uk/~psztxa/publ/lics01.pdf">Normalization by evaluation for typed lambda calculus with coproducts</a></li>
+<li>Altenkirch, Hofmann, Streicher. <a href="https://www.researchgate.net/profile/Thomas_Streicher/publication/2299234_Reduction-free_normalisation_for_system_F/links/09e4150e5745552ead000000.pdf">Reduction-free normalisation for system F</a></li>
+<li>Altenkirch, Kaposi. <a href="https://lmcs.episciences.org/4005/pdf">Normalization by Evaluation for Type Theory, in Type Theory</a></li>
+</ul>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    
+        <hr>
+        <div class="container text-center">
+            <a href="https://gohugo.io/"><small>Made with hugo</small></a>
+        </div>
+    
+</div>
+</body>
+</html>

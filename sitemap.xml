@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://dowehr.dortselb.st/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dowehr.dortselb.st/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dowehr.dortselb.st/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dowehr.dortselb.st/teaching/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://dowehr.dortselb.st/thesis/</loc>
   </url>
-  
 </urlset>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bachelor&#39;s Thesis</title>
+    <meta name="description" content="">
+    <meta name="author" content='Dominik Wehr'>
+
+    <link rel="stylesheet" href="/font-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://dowehr.dortselb.st">Dominik Wehr</a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/">
+                        About
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/masters_thesis">
+                        Master&#39;s Thesis
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/bachelors_thesis">
+                        Bachelor&#39;s Thesis
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/teaching">
+                        Teaching
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="bachelors-thesis">Bachelor&rsquo;s Thesis</h1>
+<p>I wrote my Bachelor&rsquo;s thesis at the <a href="https://www.ps.uni-saarland.de/">Programming Systems
+Lab</a> at Saarland university, advised by
+<a href="https://www.ps.uni-saarland.de/~kirst/">Dominik Kirst</a>, and <a href="https://www.ps.uni-saarland.de/~forster/">Yannick
+Forster</a> and supervised by <a href="https://www.ps.uni-saarland.de/~smolka/">Gert
+Smolka</a>. Broadly, the thesis dealt with
+completeness proofs of first-order logic in a constructive setting, more
+specifically the type theory of Coq which was used to mechanize all of thesis'
+results.</p>
+<p>The thesis can be roughly  split into two halves. The first half is concerned
+with the ∀,→,⊥-fragment of first-order logic, both over Tarski and Kripke
+models. We unify different known results into a coherent construction: For both
+kinds of models, the fragment is constructively complete for minimal models (which
+treat ⊥ as an arbitrary logical constant) and exploding models (which treat ⊥
+positively). Completeness for standard models (which interpret ⊥ as an
+absurdity) is equivalent to Markov&rsquo;s principle and thus not provable in the pure
+type theory of Coq.</p>
+<p>The second half is concerned with Lorenzen&rsquo;s formal dialogues for intuitionistic
+first-order logic. For this, we first adapt Sørensen&rsquo;s and Urzyczyn&rsquo;s generic
+completeness proof for finitely branching, classical dialogues to infinitely
+branching, intuitionistic dialogues. We then specialize it to obtain a completeness proof
+for full intuitionistic first-order logic.</p>
+<h3 id="links">Links</h3>
+<ul>
+<li>The thesis: <a href="https://www.ps.uni-saarland.de/~wehr/pdf/thesis.pdf">pdf</a></li>
+<li>The mechanization: <a href="https://www.ps.uni-saarland.de/~wehr/bachelor/coq/toc.html">CoqDoc</a>, <a href="https://github.com/uds-psl/fol-completeness-theorems">github</a></li>
+</ul>
+<h3 id="resulting-publications">Resulting Publications</h3>
+<ul>
+<li><a href="https://link.springer.com/chapter/10.1007%2F978-3-030-36755-8_4">Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory</a> [<a href="https://www.ps.uni-saarland.de/Publications/documents/ForsterEtAl_2019_Completeness.pdf">Preprint</a>]<br>
+Yannick Forster, Dominik Kirst, Dominik Wehr<br>
+<a href="https://lfcs.ws.gc.cuny.edu/lfcs-2020/">LFCS 2020</a>, Deerfield Beach, Florida, USA, 2020.</li>
+<li><a href="https://academic.oup.com/logcom/article-abstract/31/1/112/6105675?redirectedFrom=fulltext">Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory: Extended Version</a> [<a href="https://arxiv.org/pdf/2006.04399.pdf">Preprint</a>]<br>
+Yannick Forster, Dominik Kirst, Dominik Wehr<br>
+Journal of Logic and Computation, Volume 31, Issue 1, January 2021</li>
+</ul>
+<h4 id="main-references">Main References</h4>
+<ul>
+<li><a href="https://www.semanticscholar.org/paper/An-analysis-of-the-constructive-content-of-Henkin%E2%80%99s-Herbelin-Ilik/62d886aac9b6cc466cb1c9d7f008f15d3e1e891e?p2df">An analysis of the constructive content of Henkin&rsquo;s proof of Gödel&rsquo;s completeness theorem</a><br>
+Hugo Herbelin, Danko Ilik. Draft, 2016</li>
+<li><a href="https://projecteuclid.org/euclid.ndjfl/1093891803">A Henkin-style completeness proof for the pure implica-tional calculus</a><br>
+George Schumm. Notre Dame J. Formal Logic, 16(3):402–404, 1975.</li>
+<li><a href="https://hal.inria.fr/inria-00381554/document">Forcing-based cut-elimination for Gentzen-style intuitionistic sequent calculus</a><br>
+Hugo Herbelin, Gyesik Lee. Workshop on Logic, Language, Information and Computation, 2009</li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.530.2351&amp;rep=rep1&amp;type=pdf">Sequent calculus, dialogues, and cut elimination</a><br>
+Morten Sørensen, Pawel Urzyczyn. Reflections on Type Theory, λ-Calculus, and the Mind, p. 253-261, 2007</li>
+</ul>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    
+        <hr>
+        <div class="container text-center">
+            <a href="https://gohugo.io/"><small>Made with hugo</small></a>
+        </div>
+    
+</div>
+</body>
+</html>

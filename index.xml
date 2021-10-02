@@ -7,12 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://dowehr.dortselb.st/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bachelor&#39;s Thesis</title>
+      <link>https://dowehr.dortselb.st/bachelors_thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.dortselb.st/bachelors_thesis/</guid>
+      <description>Bachelor&amp;rsquo;s Thesis I wrote my Bachelor&amp;rsquo;s thesis at the Programming Systems Lab at Saarland university, advised by Dominik Kirst, and Yannick Forster and supervised by Gert Smolka. Broadly, the thesis dealt with completeness proofs of first-order logic in a constructive setting, more specifically the type theory of Coq which was used to mechanize all of thesis&#39; results.
+The thesis can be roughly split into two halves. The first half is concerned with the ∀,→,⊥-fragment of first-order logic, both over Tarski and Kripke models.</description>
+    </item>
+    
+    <item>
       <title>Dominik Wehr</title>
       <link>https://dowehr.dortselb.st/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/about/</guid>
-      <description>About Me  I am currently pursuing a Master&amp;rsquo;s degree in Logic at the Institute for Logic, Language and Computation of the University of Amsterdam with a focus on mathematics. Before this, I obtained a Bachelor&amp;rsquo;s degree in Computer Science from Saarland University in Germany. My interests lie in the exploration of reasonably strong foundational systems (i.e. at least an arithmetic) by means of proof theory and the methods of (constructive) reverse mathematics.</description>
+      <description>About Me  I am a PhD student at the Logic Group at Gothenburg University supervised by Graham Leigh and Bahareh Afshari. My research lies in the area of cyclic proof theory with specific interest in the soundness conditions of cyclic derivation systems. More generally, I am interested in the exploration of reasonably strong foundational systems (i.e. at least an arithmetic) by means of proof theory and the methods of (constructive) reverse mathematics.</description>
     </item>
     
     <item>
@@ -31,19 +41,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/teaching/</guid>
-      <description>Teaching At Saarland university, I was a student TA for the following courses:
-   Year Course     Summer 2019 Introduction to Computational Logic   Summer 2018 Introduction to Computational Logic   Winter 2017/2018 Programming 1    At University of Amsterdam, I was a student TA for the following courses:
-   Year Course     Spring 2021 Proof Theory    </description>
-    </item>
-    
-    <item>
-      <title>Thesis</title>
-      <link>https://dowehr.dortselb.st/thesis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dowehr.dortselb.st/thesis/</guid>
-      <description>Bachelor&amp;rsquo;s Thesis I wrote my Bachelor&amp;rsquo;s thesis at the Programming Systems Lab at Saarland university, advised by Dominik Kirst, and Yannick Forster and supervised by Gert Smolka. Broadly, the thesis dealt with completeness proofs of first-order logic in a constructive setting, more specifically the type theory of Coq which was used to mechanize all of thesis&#39; results.
-The thesis can be roughly split into two halves. The first half is concerned with the ∀,→,⊥-fragment of first-order logic, both over Tarski and Kripke models.</description>
+      <description>Teaching At University of Amsterdam, I was a student TA for the following courses:
+   Year Course     Spring 2021 Proof Theory    At Saarland University, I was a student TA for the following courses:
+   Year Course     Winter 2017 Programming 1   Summer 2018 Introduction to Computational Logic   Summer 2019 Introduction to Computational Logic    </description>
     </item>
     
   </channel>

@@ -26,6 +26,16 @@ The thesis can be roughly split into two halves. The first half is concerned wit
     </item>
     
     <item>
+      <title>Masters&#39;s thesis</title>
+      <link>https://dowehr.dortselb.st/masters_thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.dortselb.st/masters_thesis/</guid>
+      <description>Master&amp;rsquo;s thesis I wrote this thesis under the supervision of Bahareh Afshari to obtain my Master of Logic. Broadly, the thesis is concerned with capturing the structural (i.e. non-logical) properties common to cyclic derivation systems in a categorical manner.
+Abstract Cyclic derivations are finite graphs in which adjacent nodes are labeled by sequents according to locally sound derivation rules. These graphs serve as a finite representation of the infinite derivation trees obtained by unraveling them.</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://dowehr.dortselb.st/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

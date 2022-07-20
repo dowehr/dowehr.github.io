@@ -22,7 +22,7 @@ The thesis can be roughly split into two halves. The first half is concerned wit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/about/</guid>
-      <description>About Me  I am a PhD student at the Logic Group at Gothenburg University supervised by Graham Leigh and Bahareh Afshari. My research lies in the area of cyclic proof theory with specific interest in the soundness conditions of cyclic derivation systems. More generally, I am interested in the exploration of reasonably strong foundational systems (i.e. at least an arithmetic) by means of proof theory and the methods of (constructive) reverse mathematics.</description>
+      <description>About Me I am a PhD student at the Logic Group at Gothenburg University supervised by Graham Leigh and Bahareh Afshari. My research lies in the area of cyclic proof theory with specific interest in the soundness conditions of cyclic derivation systems. More generally, I am interested in the exploration of reasonably strong foundational systems (i.e. at least an arithmetic) by means of proof theory and the methods of (constructive) reverse mathematics.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Abstract Cyclic derivations are finite graphs in which adjacent nodes are labele
       
       <guid>https://dowehr.dortselb.st/projects/</guid>
       <description>Research Projects The Master of Logic allows students to earn up to 24 EC via research projects. These are the research projects I have worked on so far.
- Formal Analysis of Material Dialogues for FOL This project was supervised by Dominik Kirst from Saarland University. It can be viewed as me carrying out one of the ideas mentioned in the &amp;ldquo;future work&amp;rdquo; section of my Bachelor&amp;rsquo;s thesis. Dialogical logic, originally put forward by Paul Lorenzen, captures the notion of first-order validity in terms of games modeled after a debate.</description>
+Formal Analysis of Material Dialogues for FOL This project was supervised by Dominik Kirst from Saarland University. It can be viewed as me carrying out one of the ideas mentioned in the &amp;ldquo;future work&amp;rdquo; section of my Bachelor&amp;rsquo;s thesis. Dialogical logic, originally put forward by Paul Lorenzen, captures the notion of first-order validity in terms of games modeled after a debate.</description>
     </item>
     
     <item>
@@ -52,8 +52,8 @@ Abstract Cyclic derivations are finite graphs in which adjacent nodes are labele
       
       <guid>https://dowehr.dortselb.st/teaching/</guid>
       <description>Teaching At University of Amsterdam, I was a student TA for the following courses:
-   Year Course     Spring 2021 Proof Theory    At Saarland University, I was a student TA for the following courses:
-   Year Course     Winter 2017 Programming 1   Summer 2018 Introduction to Computational Logic   Summer 2019 Introduction to Computational Logic    </description>
+Year Course Spring 2021 Proof Theory At Saarland University, I was a student TA for the following courses:
+Year Course Winter 2017 Programming 1 Summer 2018 Introduction to Computational Logic Summer 2019 Introduction to Computational Logic </description>
     </item>
     
   </channel>

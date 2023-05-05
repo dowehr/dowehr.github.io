@@ -12,8 +12,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/bachelors_thesis/</guid>
-      <description>Bachelor&amp;rsquo;s Thesis I wrote my Bachelor&amp;rsquo;s thesis at the Programming Systems Lab at Saarland university, advised by Dominik Kirst, and Yannick Forster and supervised by Gert Smolka. Broadly, the thesis dealt with completeness proofs of first-order logic in a constructive setting, more specifically the type theory of Coq which was used to mechanize all of thesis&#39; results.
-The thesis can be roughly split into two halves. The first half is concerned with the ∀,→,⊥-fragment of first-order logic, both over Tarski and Kripke models.</description>
+      <description>A Constructive Analysis of First-Order Completeness Theorems in Coq Type: Bachelor&amp;rsquo;s thesis
+Advisors: Dominik Kirst and Yannick Forster
+Supervisor: Gert Smolka
+Institution: Saarland University, Programming Systems Lab
+Digital copy: Available here
+Coq mechanization: CoqDoc and github
+Resulting Publications Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory [Preprint]
+Yannick Forster, Dominik Kirst, Dominik Wehr
+LFCS 2020, Deerfield Beach, Florida, USA, 2020. Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory: Extended Version [Preprint]</description>
     </item>
     
     <item>
@@ -22,7 +29,20 @@ The thesis can be roughly split into two halves. The first half is concerned wit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/about/</guid>
-      <description>About Me I am a PhD student at the Logic Group at Gothenburg University supervised by Graham Leigh and Bahareh Afshari. My research lies in the area of cyclic proof theory with specific interest in the soundness conditions of cyclic derivation systems. More generally, I am interested in the exploration of reasonably strong foundational systems (i.e. at least an arithmetic) by means of proof theory and the methods of (constructive) reverse mathematics.</description>
+      <description>I am a PhD student at the Logic Group at Gothenburg University supervised by Graham Leigh and Bahareh Afshari. My research lies in the area of cyclic proof theory with specific interest in the soundness conditions of cyclic derivation systems. More generally, I am interested in the exploration of reasonably strong foundational systems (i.e. at least an arithmetic) by means of proof theory and the methods of (constructive) reverse mathematics.</description>
+    </item>
+    
+    <item>
+      <title>Licentiate thesis</title>
+      <link>https://dowehr.dortselb.st/licentiate_thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.dortselb.st/licentiate_thesis/</guid>
+      <description>Representation Matters in Cyclic Proof Theory Type: Licentiate thesis
+Supervisors: Graham E. Leigh and Bahareh Afshari
+Institution: University of Gothenburg
+Digital copy: Available on GUPEA
+Abstract Cyclic proof systems allow derivations whose underlying structure is a finite graph, rather than a well-founded tree. The soundness of cyclic proofs is usually ensured by imposing additional conditions beyond well-formedness. Distinct cyclic representations of the same logic can be obtained by combining the same stock of logical rules with different soundness conditions.</description>
     </item>
     
     <item>
@@ -31,8 +51,13 @@ The thesis can be roughly split into two halves. The first half is concerned wit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/masters_thesis/</guid>
-      <description>Master&amp;rsquo;s thesis I wrote this thesis under the supervision of Bahareh Afshari to obtain my Master of Logic. Broadly, the thesis is concerned with capturing the structural (i.e. non-logical) properties common to cyclic derivation systems in a categorical manner.
-Abstract Cyclic derivations are finite graphs in which adjacent nodes are labeled by sequents according to locally sound derivation rules. These graphs serve as a finite representation of the infinite derivation trees obtained by unraveling them.</description>
+      <description>An Abstract Framework for the Analysis of Cyclic Derivations Type: Master&amp;rsquo;s thesis
+Supervisor: Bahareh Afshari
+Institution: University of Amsterdam, Institute for Logic, Language and Computation
+Digital copy: Available on the ILLC eprints server
+Resulting publication Abstract Cyclic Proofs
+Bahareh Afshari, Dominik Wehr
+WoLLIC 2022, Iaşi, Romania, 2022. Abstract Cyclic derivations are finite graphs in which adjacent nodes are labeled by sequents according to locally sound derivation rules. These graphs serve as a finite representation of the infinite derivation trees obtained by unraveling them.</description>
     </item>
     
     <item>
@@ -46,15 +71,47 @@ Formal Analysis of Material Dialogues for FOL This project was supervised by Dom
     </item>
     
     <item>
+      <title>Publications</title>
+      <link>https://dowehr.dortselb.st/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.dortselb.st/publications/</guid>
+      <description>Publications Peer-reviewed publications Exact bounds for acyclic higher-order recursion schemes
+Bahareh Afshari, Dominik Wehr
+Journal of Information and Computation, Volume 290, January 2023 Abstract Cyclic Proofs
+Bahareh Afshari, Dominik Wehr
+WoLLIC 2022, Iaşi, Romania, 2022. Material Dialogues for First-Order Logic in Constructive Type Theory [Preprint]
+Dominik Wehr, Dominik Kirst
+WoLLIC 2022, Iaşi, Romania, 2022. Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory: Extended Version [Preprint]
+Yannick Forster, Dominik Kirst, Dominik Wehr</description>
+    </item>
+    
+    <item>
       <title>Teaching</title>
       <link>https://dowehr.dortselb.st/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dowehr.dortselb.st/teaching/</guid>
       <description>Teaching At University of Gothenburg, I have taught the following courses:
-Semester Course Fall 2022 Category Theory At University of Amsterdam, I was a student TA for the following courses:
+Semester Course Position Spring 2023 Proof Theory Teaching assistant Fall 2022 Category Theory Course leader At University of Amsterdam, I was a student TA for the following courses:
 Semester Course Spring 2021 Proof Theory At Saarland University, I was a student TA for the following courses:
 Semester Course Summer 2019 Introduction to Computational Logic Summer 2018 Introduction to Computational Logic Winter 2017 Programming 1 </description>
+    </item>
+    
+    <item>
+      <title>Theses</title>
+      <link>https://dowehr.dortselb.st/theses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dowehr.dortselb.st/theses/</guid>
+      <description>Theses Representation Matters in Cyclic Proof Theory Type: Licentiate thesis
+Supervisors: Graham E. Leigh and Bahareh Afshari
+Digital copy: Available on GUPEA
+A compilation thesis, consisting of two research articles, exploring cyclic proof theory from the perspective of proof representation, and an accompanying kappa.
+More details here.
+An Abstract Framework for the Analysis of Cyclic Derivations Type: Master&amp;rsquo;s thesis
+Supervisor: Bahareh Afshari
+Digital copy: Available on the ILLC eprints server</description>
     </item>
     
   </channel>

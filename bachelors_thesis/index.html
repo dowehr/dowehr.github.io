@@ -34,15 +34,8 @@
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
-                    <a class="nav-item nav-link" href="/masters_thesis">
-                        Master&#39;s Thesis
-                    </a>
-                    
-                        <span class="nav-item navbar-text mx-1">/</span>
-                    
-                
-                    <a class="nav-item nav-link" href="/bachelors_thesis">
-                        Bachelor&#39;s Thesis
+                    <a class="nav-item nav-link" href="/publications">
+                        Publications
                     </a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
@@ -50,6 +43,13 @@
                 
                     <a class="nav-item nav-link" href="/teaching">
                         Teaching
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/theses">
+                        Theses
                     </a>
                     
                 
@@ -60,33 +60,13 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h1 id="bachelors-thesis">Bachelor&rsquo;s Thesis</h1>
-<p>I wrote my Bachelor&rsquo;s thesis at the <a href="https://www.ps.uni-saarland.de/">Programming Systems
-Lab</a> at Saarland university, advised by
-<a href="https://www.ps.uni-saarland.de/~kirst/">Dominik Kirst</a>, and <a href="https://www.ps.uni-saarland.de/~forster/">Yannick
-Forster</a> and supervised by <a href="https://www.ps.uni-saarland.de/~smolka/">Gert
-Smolka</a>. Broadly, the thesis dealt with
-completeness proofs of first-order logic in a constructive setting, more
-specifically the type theory of Coq which was used to mechanize all of thesis'
-results.</p>
-<p>The thesis can be roughly  split into two halves. The first half is concerned
-with the ∀,→,⊥-fragment of first-order logic, both over Tarski and Kripke
-models. We unify different known results into a coherent construction: For both
-kinds of models, the fragment is constructively complete for minimal models (which
-treat ⊥ as an arbitrary logical constant) and exploding models (which treat ⊥
-positively). Completeness for standard models (which interpret ⊥ as an
-absurdity) is equivalent to Markov&rsquo;s principle and thus not provable in the pure
-type theory of Coq.</p>
-<p>The second half is concerned with Lorenzen&rsquo;s formal dialogues for intuitionistic
-first-order logic. For this, we first adapt Sørensen&rsquo;s and Urzyczyn&rsquo;s generic
-completeness proof for finitely branching, classical dialogues to infinitely
-branching, intuitionistic dialogues. We then specialize it to obtain a completeness proof
-for full intuitionistic first-order logic.</p>
-<h3 id="links">Links</h3>
-<ul>
-<li>The thesis: <a href="https://www.ps.uni-saarland.de/~wehr/pdf/thesis.pdf">pdf</a></li>
-<li>The mechanization: <a href="https://www.ps.uni-saarland.de/~wehr/bachelor/coq/toc.html">CoqDoc</a>, <a href="https://github.com/uds-psl/fol-completeness-theorems">github</a></li>
-</ul>
+    <h1 id="a-constructive-analysis-of-first-order-completeness-theorems-in-coq">A Constructive Analysis of First-Order Completeness Theorems in Coq</h1>
+<p><em>Type</em>: Bachelor&rsquo;s thesis<br>
+<em>Advisors:</em> <a href="https://www.ps.uni-saarland.de/~kirst/">Dominik Kirst</a> and <a href="https://yforster.github.io/">Yannick Forster</a><br>
+<em>Supervisor:</em> <a href="https://www.ps.uni-saarland.de/~smolka/">Gert Smolka</a><br>
+<em>Institution:</em> Saarland University, Programming Systems Lab</p>
+<p><em>Digital copy:</em> Available <a href="https://www.ps.uni-saarland.de/~wehr/pdf/thesis.pdf">here</a><br>
+<em>Coq mechanization:</em> <a href="https://www.ps.uni-saarland.de/~wehr/bachelor/coq/toc.html">CoqDoc</a> and <a href="https://github.com/uds-psl/fol-completeness-theorems">github</a></p>
 <h3 id="resulting-publications">Resulting Publications</h3>
 <ul>
 <li><a href="https://link.springer.com/chapter/10.1007%2F978-3-030-36755-8_4">Completeness Theorems for First-Order Logic Analysed in Constructive Type Theory</a> [<a href="https://www.ps.uni-saarland.de/Publications/documents/ForsterEtAl_2019_Completeness.pdf">Preprint</a>]<br>
@@ -96,17 +76,32 @@ Yannick Forster, Dominik Kirst, Dominik Wehr<br>
 Yannick Forster, Dominik Kirst, Dominik Wehr<br>
 Journal of Logic and Computation, Volume 31, Issue 1, January 2021</li>
 </ul>
-<h4 id="main-references">Main References</h4>
-<ul>
-<li><a href="https://www.semanticscholar.org/paper/An-analysis-of-the-constructive-content-of-Henkin%E2%80%99s-Herbelin-Ilik/62d886aac9b6cc466cb1c9d7f008f15d3e1e891e?p2df">An analysis of the constructive content of Henkin&rsquo;s proof of Gödel&rsquo;s completeness theorem</a><br>
-Hugo Herbelin, Danko Ilik. Draft, 2016</li>
-<li><a href="https://projecteuclid.org/euclid.ndjfl/1093891803">A Henkin-style completeness proof for the pure implica-tional calculus</a><br>
-George Schumm. Notre Dame J. Formal Logic, 16(3):402–404, 1975.</li>
-<li><a href="https://hal.inria.fr/inria-00381554/document">Forcing-based cut-elimination for Gentzen-style intuitionistic sequent calculus</a><br>
-Hugo Herbelin, Gyesik Lee. Workshop on Logic, Language, Information and Computation, 2009</li>
-<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.530.2351&amp;rep=rep1&amp;type=pdf">Sequent calculus, dialogues, and cut elimination</a><br>
-Morten Sørensen, Pawel Urzyczyn. Reflections on Type Theory, λ-Calculus, and the Mind, p. 253-261, 2007</li>
-</ul>
+<h3 id="abstract">Abstract</h3>
+<p>First-order logic stands out among systems of similar expressivity as its deduction
+systems can be shown to be complete with regards to naive semantic accounts of
+validity. A deduction system is complete if it can prove every semantically valid
+formula. Historically, many proofs of first-order completeness have relied on non-
+constructive reasoning principles. In this thesis, we analyze multiple completeness
+theorems for variants of Gentzen’s natural deduction and sequent calculus with
+regards to model and game semantics for first-order logic to determine which non-
+constructive principles are required to prove them.</p>
+<p>In the first half of this thesis, we constructively analyze completeness theorems for
+the ∀, →, ⊥-fragment of first-order logic with regards to different notions of Tarski
+and Kripke models. We show that Veldman exploding models, which treat ⊥ pos-
+itively, and minimal models, which treat ⊥ as an arbitrary logical constant, admit
+fully constructive completeness proofs. We also demonstrate the non-constructivity
+of completeness with regards to standard Tarski and Kripke models by relating
+them to the stability of provability. We derive tight characterizations of the require-
+ments for multiple variants of standard completeness by identifying the principle
+of double-negation elimination and two different formulations of Markov’s princi-
+ple with the stability of provability restricted to different classes of theories.</p>
+<p>The second half of the thesis is concerned with dialogue game semantics for full
+intutionistic first-order logic. We first give generic and fully constructive complete-
+ness proofs with regards to formal intuitionistic E- and D-dialogues. We then derive
+the completeness of the full intuitionistic sequent calculus with regards to formal
+first-order dialogues from this general result.</p>
+<p>The analyses of this thesis are carried out in the calculus of inductive constructions
+and have been formalized in the interactive proof assistant Coq.</p>
 
 </div>
 

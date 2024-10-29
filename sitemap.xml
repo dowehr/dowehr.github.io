@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/bachelors_thesis/</loc>
+    <loc>https://dowehr.dortselb.st/bachelors_thesis/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dowehr.dortselb.st/</loc>
   </url><url>
-    <loc>http://localhost:1313/licentiate_thesis/</loc>
+    <loc>https://dowehr.dortselb.st/licentiate_thesis/</loc>
   </url><url>
-    <loc>http://localhost:1313/masters_thesis/</loc>
+    <loc>https://dowehr.dortselb.st/masters_thesis/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://dowehr.dortselb.st/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://dowehr.dortselb.st/publications/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
+    <loc>https://dowehr.dortselb.st/teaching/</loc>
   </url><url>
-    <loc>http://localhost:1313/theses/</loc>
+    <loc>https://dowehr.dortselb.st/theses/</loc>
   </url>
 </urlset>
